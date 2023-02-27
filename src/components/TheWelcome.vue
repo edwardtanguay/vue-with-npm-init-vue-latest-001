@@ -21,6 +21,17 @@ import SupportIcon from './icons/IconSupport.vue'
 
   <WelcomeItem>
     <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Howtos</template>
+
+    Edward's 
+    <a href="https://edwardtanguay.vercel.app/howtos" target="_blank" rel="noopener">Howtos</a>
+    with lots of code and examples
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
       <ToolingIcon />
     </template>
     <template #heading>Tooling</template>
