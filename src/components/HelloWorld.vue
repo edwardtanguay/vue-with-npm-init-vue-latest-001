@@ -1,12 +1,12 @@
 <script setup lang="ts">
 defineProps<{
-  msg: string
+  msg2: string
 }>()
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">{{ msg2 }}</h1>
     <h3>
       I've successfully created a project with Vue 3.
     </h3>

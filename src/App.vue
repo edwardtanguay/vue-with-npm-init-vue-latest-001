@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import InfoSpace from './components/InfoSpace.vue'
 </script>
 
 <template>
@@ -8,7 +9,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/edward.jpg" />
 
     <div class="wrapper">
-      <HelloWorld msg="I did it!" />
+      <InfoSpace theMessage="Hello from a new component:" />
+      <HelloWorld msg2="I did it!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
